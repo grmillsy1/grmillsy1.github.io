@@ -5,7 +5,7 @@
 }
 
 .active {
-  background-image: url('arrow1.png');
+  background-image: url('image/arrow1.png');
   background-repeat: no-repeat;
   background-size: contain;
   left: -13px;
