@@ -12,7 +12,7 @@ var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0
       .setClassToggle("#menu1", "active") // add class toggle
       .addTo(controller);
 
-  var scene1b = new ScrollMagic.Scene({
+var scene1b = new ScrollMagic.Scene({
     triggerElement: "#photo1",
     duration: 350})
        .setPin('#sec1-text')
