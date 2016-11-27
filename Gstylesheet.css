@@ -65,6 +65,23 @@ nav.site-navigation-bar a:hover {
 
 }
 
+#sec1 {
+  width: 100%;
+  position: relative;
+}
+#sec1-photo {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+#sec1-text {
+  position: absolute;
+  left: 48%;
+  right: 0;
+
+}
+
 #sec2 {
   width: 100%;
   position: relative;
@@ -163,6 +180,14 @@ nav.site-navigation-bar a:hover {
   margin-top: 250px;
 }
 
+#sec5-heading {
+  position: absolute;
+  left: 30%;
+  z-index: 53;
+  font-size: 30pt !important;
+  top: -77px;
+}
+
 #sec5-photo {
   position: absolute;
   max-width: 100%;
@@ -182,6 +207,13 @@ nav.site-navigation-bar a:hover {
   margin-top: 250px;
 }
 
+#sec6-heading {
+  position: absolute;
+  left: 40%;
+  z-index: 63;
+  font-size: 30pt !important;
+  top: -77px;
+}
 #sec6-text {
   position: absolute;
   right: 55%;
@@ -195,7 +227,6 @@ nav.site-navigation-bar a:hover {
   left: 47%;
   right: 0;
 }
-
 .wrapper1 div{
   height:100vh;
 }
