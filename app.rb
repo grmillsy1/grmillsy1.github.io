@@ -3,7 +3,7 @@ require 'sinatra/base'
 class GeorgiaMills < Sinatra::Base
 
   get '/' do
-    erb :index
+    erb :page
   end
 
 
