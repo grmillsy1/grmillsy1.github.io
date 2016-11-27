@@ -10,7 +10,7 @@ var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0
    duration: '100%',
    triggerElement: "#sec1"})
       .setClassToggle("#menu1", "active")
-      .addIndicators()
+      // .addIndicators()
       .addTo(controller);
 
   var scene1b = new ScrollMagic.Scene({
@@ -24,7 +24,7 @@ var scene2 = new ScrollMagic.Scene({
   offset: -100,
   duration: '80%',})
     .setClassToggle("#menu2", "active")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
   var scene2b = new ScrollMagic.Scene({
@@ -40,7 +40,7 @@ var scene3 = new ScrollMagic.Scene({
   duration: '200%',
   offset: -100 })
     .setClassToggle("#menu3", "active")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
   var scene3b = new ScrollMagic.Scene({
@@ -54,7 +54,7 @@ var scene4 = new ScrollMagic.Scene({
   triggerElement: "#sec4",
   offset: -100 })
     .setClassToggle("#menu4", "active")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
   var scene4b = new ScrollMagic.Scene({
@@ -68,7 +68,7 @@ var scene5 = new ScrollMagic.Scene({
   triggerElement: "#sec5",
    offset: -100 })
     .setClassToggle("#menu5", "active")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
   var scene5b = new ScrollMagic.Scene({
@@ -82,7 +82,7 @@ var scene6 = new ScrollMagic.Scene({
   triggerElement: "#sec6",
   offset: -100 })
     .setClassToggle("#menu6", "active")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
   var scene6b = new ScrollMagic.Scene({
@@ -96,7 +96,7 @@ var scene7 = new ScrollMagic.Scene({
   triggerElement: "#sec7",
   offset: -100 })
     .setClassToggle("#menu7", "active")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 // )}
