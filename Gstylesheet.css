@@ -67,7 +67,7 @@ nav.site-navigation-bar a:hover {
   position: absolute;
   left: 48%;
   right: 0;
-  max-width: 100%
+
 }
 
 #sec2 {
@@ -120,6 +120,7 @@ nav.site-navigation-bar a:hover {
   left: 47%;
   right: 0;
   z-index: 32;
+
 }
 
 #sec3-heading {
