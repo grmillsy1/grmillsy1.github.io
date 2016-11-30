@@ -232,6 +232,7 @@ nav.site-navigation-bar a:hover {
   width: 100%;
   position: relative;
   margin-top: 200px;
+  margin-bottom: -200px;
 }
 
 #bowtie {
