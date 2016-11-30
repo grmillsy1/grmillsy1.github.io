@@ -240,12 +240,13 @@ div.wrapper1 a:hover {
 #sec7 {
   width: 100%;
   position: relative;
-  margin-top: 200px;
-  margin-bottom: -200px;
+  /*margin-top: 200px;
+  margin-bottom: -200px;*/
 }
 
 #bowtie {
   position: absolute;
+  margin-top: 200px;
   left: 50%;
 }
 #contact-email{
@@ -253,12 +254,12 @@ div.wrapper1 a:hover {
   left: 10%;
   font-family: 'Zeyada', cursive !important;
   font-size: 40pt;
-  top: 10%;
+  top: 250px;
 }
 #socialmedia{
   position: absolute;
   left: 13%;
-  top: 25%;
+  top: 400px;
 }
 
 .wrapper1 div{
