@@ -49,6 +49,15 @@ nav.site-navigation-bar a:hover {
   /*position: relative;*/
 }
 
+nav.wrapper1 a:visited, a:link, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+nav.wrapper1 a:hover {
+  color:#B9B9B9;
+}
+
 #title {
   text-decoration: underline;
 }
