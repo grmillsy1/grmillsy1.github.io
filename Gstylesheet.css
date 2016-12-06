@@ -299,6 +299,9 @@ nav.site-navigation-bar a:hover {
     height: 100vh;
     font-family: 'Zeyada', cursive;
     font-size: 30pt;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   nav.site-navigation-bar li{
     width: 100%;
