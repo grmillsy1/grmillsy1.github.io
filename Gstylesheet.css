@@ -275,7 +275,7 @@ nav.site-navigation-bar a:hover {
 
   .main-heading {
     font-family: 'Zeyada', cursive;
-    font-size: 30pt;
+    font-size: 20pt;
   }
 
   img#photo1 {
@@ -287,7 +287,6 @@ nav.site-navigation-bar a:hover {
   }
 
   div#sec1-text {
-    position: static !important;
     text-align: center;
     width: 100%;
     float: none;
@@ -332,5 +331,13 @@ nav.site-navigation-bar a:hover {
    margin-left: auto;
    margin-right: auto;
    margin-top: 100px;
+ }
+
+ #sec3-text, #sec4-text, #sec5-text, #sec6-text {
+   display: block;
+   width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
  }
 }
