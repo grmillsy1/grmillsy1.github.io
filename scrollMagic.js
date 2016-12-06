@@ -1,7 +1,7 @@
 
 
 // $(function() {
-// if ($( window ).width() >= 600) {
+if ($( window ).width() >= 600) {
 
 var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0.05,}});
 
@@ -100,4 +100,4 @@ var scene7 = new ScrollMagic.Scene({
     .addTo(controller);
 
 // )}
- // }
+ }
