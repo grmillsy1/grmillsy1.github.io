@@ -262,9 +262,15 @@ nav.site-navigation-bar a:hover {
 @media screen and (min-width : 450px) and (max-width : 1000px) {
   .wrapper1 {
     padding-left: 0;
+    font-family: 'Cutive Mono', monospace;
   }
 
-  div#sec1-photo {
+  .main-heading {
+    font-family: 'Zeyada', cursive;
+    font-size: 30pt;
+  }
+
+  img#photo1 {
     width: 70%;
     float: none;
     display: block;
@@ -278,6 +284,7 @@ nav.site-navigation-bar a:hover {
     width: 100%;
     float: none;
     display: block;
+    margin-top: 100px;
   }
   nav.site-navigation-bar {
     display: none;
@@ -298,9 +305,17 @@ nav.site-navigation-bar a:hover {
   nav.site-navigation-bar a:hover {
     color:#B9B9B9;
   }
+ #sec-2-line {
+   display: none;
+ }
+ #sec3-heading {
+   font-size: 30pt;
+ }
 
-  .main-heading {
-    font-family: 'Zeyada', cursive;
-    font-size: 25pt;
-  }
+ #photo3{
+   width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+ }
 }
