@@ -295,8 +295,10 @@ nav.site-navigation-bar a:hover {
     margin-top: 100px;
   }
   nav.site-navigation-bar {
-    display: none;
-    /*height: 100vh;*/
+    /*display: none;*/
+    height: 100vh;
+    font-family: 'Zeyada', cursive;
+    font-size: 30pt;
   }
   nav.site-navigation-bar li{
     width: 100%;
