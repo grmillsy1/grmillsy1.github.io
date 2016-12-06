@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 .main-heading {
   font-family: 'Zeyada', cursive;
   font-size: 25pt;
@@ -280,7 +280,27 @@ nav.site-navigation-bar a:hover {
     display: block;
   }
   nav.site-navigation-bar {
-    display: none;
+    /*display: none;*/
+    height: 100vh;
+  }
+  nav.site-navigation-bar li{
+    width: 100%;
+    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav.site-navigation-bar a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
   }
 
+  nav.site-navigation-bar a:hover {
+    color:#B9B9B9;
+  }
+
+  .main-heading {
+    font-family: 'Zeyada', cursive;
+    font-size: 25pt;
+  }
 }
