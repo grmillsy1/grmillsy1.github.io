@@ -61,7 +61,7 @@ nav.site-navigation-bar a:hover {
 }
 #sec1-photo {
   position: absolute;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -82,7 +82,7 @@ nav.site-navigation-bar a:hover {
 
 #sec2-text {
   position: absolute;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   left: 10%;
   z-index: 19;
@@ -113,7 +113,7 @@ nav.site-navigation-bar a:hover {
 
 #sec3-photo {
   position: absolute;
-  max-width: 120%;
+  width: 100%;
   height: auto;
   z-index: 31;
 }
@@ -161,6 +161,7 @@ nav.site-navigation-bar a:hover {
 
 #sec4-photo {
   position: absolute;
+  width: 100%
   left: 47%;
   right: 0;
   z-index: 41;
@@ -182,7 +183,7 @@ nav.site-navigation-bar a:hover {
 
 #sec5-photo {
   position: absolute;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -216,6 +217,8 @@ nav.site-navigation-bar a:hover {
 
 #sec6-photo {
   position: absolute;
+  width: 100%;
+  height: auto;
   left: 47%;
   right: 0;
 }
