@@ -98,5 +98,5 @@ if ($( window ).width() >= 1000) {
         .setClassToggle("#menu7", "active")
         // .addIndicators()
         .addTo(controller);
+  }
  )}
- }
