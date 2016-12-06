@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width : 1000px) {
 .main-heading {
   font-family: 'Zeyada', cursive;
   font-size: 25pt;
@@ -259,7 +259,7 @@ nav.site-navigation-bar a:hover {
 }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 450px) {
+@media screen and (min-width : 450px) and (max-width : 1000px) {
   .wrapper1 {
     padding-left: 0;
   }
@@ -280,8 +280,8 @@ nav.site-navigation-bar a:hover {
     display: block;
   }
   nav.site-navigation-bar {
-    /*display: none;*/
-    height: 100vh;
+    display: none;
+    /*height: 100vh;*/
   }
   nav.site-navigation-bar li{
     width: 100%;
