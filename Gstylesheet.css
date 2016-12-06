@@ -270,12 +270,12 @@ nav.site-navigation-bar a:hover {
     padding-left: 0;
     font-family: 'Cutive Mono', monospace;
     text-align: center;
-    font-size: 30pt;
+    font-size: 20pt;
   }
 
   .main-heading {
     font-family: 'Zeyada', cursive;
-    font-size: 20pt;
+    font-size: 30pt;
   }
 
   img#photo1 {
@@ -288,7 +288,7 @@ nav.site-navigation-bar a:hover {
 
   div#sec1-text {
     text-align: center;
-    width: 100%;
+    width: 80%;
     float: none;
     display: block;
     margin-top: 100px;
@@ -313,6 +313,9 @@ nav.site-navigation-bar a:hover {
     color:#B9B9B9;
   }
 
+  #sec2, #sec3, #sec4, #sec5, #sec6 {
+    border-top: solid;
+  }
   #sec2 {
     margin-top: 100px;
   }
@@ -320,7 +323,7 @@ nav.site-navigation-bar a:hover {
  #sec2-line {
    display: none;
  }
- #sec3-heading {
+ #sec3-heading, #sec4-heading, #sec5-heading, #sec6-heading {
    font-size: 30pt;
  }
 
