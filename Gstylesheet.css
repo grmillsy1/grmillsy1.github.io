@@ -134,6 +134,19 @@ nav.site-navigation-bar a:hover {
   font-size: 30pt !important;
   top: -77px;
 }
+#grace-web1 {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+}
+#grace-web2 {
+  margin-bottom: 50px;
+}
+#grace-web4{
+  margin-right: 30px;
+}
+
 
 #sec4 {
   width: 100%;
@@ -300,7 +313,7 @@ nav.site-navigation-bar a:hover {
     font-family: 'Zeyada', cursive;
     font-size: 30pt;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 100px;
     margin-bottom: auto;
   }
   nav.site-navigation-bar li{
@@ -309,6 +322,7 @@ nav.site-navigation-bar a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
   }
   nav.site-navigation-bar a:visited, a:link, a:active {
     text-decoration: none;
