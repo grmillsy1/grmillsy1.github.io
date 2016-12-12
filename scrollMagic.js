@@ -17,7 +17,9 @@ if ($( window ).width() >= 1000) {
         triggerElement: "#photo1",
         duration: 350})
            .setPin('#sec1-text')
+           .addIndicators()
            .addTo(controller);
+
 
     var scene2 = new ScrollMagic.Scene({
       triggerElement: "#SideNote",
