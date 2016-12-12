@@ -47,7 +47,7 @@ if ($( window ).width() >= 1000) {
 
       var scene3b = new ScrollMagic.Scene({
         triggerElement: "#photo3",
-        duration: 180})
+        duration: 175})
            .setPin('#sec3-text')
            .addIndicators()
            .addTo(controller);
