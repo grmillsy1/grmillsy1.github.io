@@ -20,7 +20,7 @@ if ($( window ).width() >= 1000) {
            .addTo(controller);
 
     var scene2 = new ScrollMagic.Scene({
-      triggerElement: "#GeorgiaMills",
+      triggerElement: "#SideNote",
       offset: -100,
       duration: '80%',})
         .setClassToggle("#menu2", "active")
