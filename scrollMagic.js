@@ -8,7 +8,7 @@ if ($( window ).width() >= 1000) {
     // build scenes
      var scene1 = new ScrollMagic.Scene({
        duration: '100%',
-       triggerElement: "#sec1"})
+       triggerElement: "#GeorgiaMills"})
           .setClassToggle("#menu1", "active")
           // .addIndicators()
           .addTo(controller);
@@ -20,7 +20,7 @@ if ($( window ).width() >= 1000) {
            .addTo(controller);
 
     var scene2 = new ScrollMagic.Scene({
-      triggerElement: "#sec2",
+      triggerElement: "#GeorgiaMills",
       offset: -100,
       duration: '80%',})
         .setClassToggle("#menu2", "active")
@@ -28,7 +28,7 @@ if ($( window ).width() >= 1000) {
         .addTo(controller);
 
       var scene2b = new ScrollMagic.Scene({
-        triggerElement: "#sec2",
+        triggerElement: "#SideNote",
         offset: -150,
         // duration: 200,
         })
@@ -93,7 +93,7 @@ if ($( window ).width() >= 1000) {
 
     var scene7 = new ScrollMagic.Scene({
       duration: '100%',
-      triggerElement: "#sec7",
+      triggerElement: "#Contact",
       offset: -100 })
         .setClassToggle("#menu7", "active")
         // .addIndicators()
