@@ -55,7 +55,7 @@ nav.site-navigation-bar a:hover {
   text-decoration: underline;
 }
 
-#sec1 {
+#GeorgiaMills {
   width: 100%;
   position: relative;
 }
@@ -73,7 +73,7 @@ nav.site-navigation-bar a:hover {
 
 }
 
-#sec2 {
+#SideNote {
   width: 100%;
   position: relative;
   margin-top: 250px;
@@ -127,7 +127,7 @@ nav.site-navigation-bar a:hover {
 
 }
 
-#sec3-heading {
+#GracePrince {
   position: absolute;
   left: 30%;
   z-index: 33;
@@ -140,10 +140,10 @@ nav.site-navigation-bar a:hover {
   margin-bottom: 50px;
   margin-left: 70px;
 }
-#grace-web2 {
+#bow-tie2 {
   margin-bottom: 50px;
 }
-#grace-web4{
+#bow-tie2{
   margin-right: 30px;
 }
 
@@ -154,7 +154,7 @@ nav.site-navigation-bar a:hover {
   margin-top: 250px;
 }
 
-#sec4-heading {
+#Flare {
   position: absolute;
   left:40%;
   z-index: 43;
@@ -186,7 +186,7 @@ nav.site-navigation-bar a:hover {
   margin-top: 250px;
 }
 
-#sec5-heading {
+#JojaLondon {
   position: absolute;
   left: 30%;
   z-index: 53;
@@ -213,7 +213,7 @@ nav.site-navigation-bar a:hover {
   margin-top: 250px;
 }
 
-#sec6-heading {
+#Bloom {
   position: absolute;
   left: 40%;
   z-index: 63;
@@ -244,10 +244,12 @@ nav.site-navigation-bar a:hover {
 }
 #bow-tie2 {
   margin-bottom: 50px;
+}
+#bow-tie2{
   margin-right: 30px;
 }
 
-#sec7 {
+#Contact {
   width: 100%;
   position: relative;
   margin-top: 200px;
