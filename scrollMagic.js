@@ -112,10 +112,11 @@ if ($( window ).width() >= 1000) {
 
  $(window).on("resize", function(e) {
   if ($(window).width() < 1000 && controller.enabled()) {
-    console.log('resized');
     controller.enabled(false);
+    location.reload();
   } else if (!controller.enabled()) {
     controller.enabled(true);
+    location.reload();
   }
   controller.update(true);
 });
