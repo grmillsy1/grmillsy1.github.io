@@ -156,7 +156,7 @@ nav.site-navigation-bar a:hover {
 
 #Flare {
   position: absolute;
-  left:40%;
+  left: 40%;
   z-index: 43;
   font-size: 30pt !important;
   top: -77px;
@@ -169,15 +169,15 @@ nav.site-navigation-bar a:hover {
   width: 450px;
   height: auto;
   text-align: right;
-  z-index: 42;
+  /*z-index: 42;*/
 }
 
 #sec4-photo {
   position: absolute;
-  width: 100%
+  width: 50%;
   left: 47%;
   right: 0;
-  z-index: 41;
+  /*z-index: 41;*/
 }
 
 #sec5 {
@@ -230,7 +230,7 @@ nav.site-navigation-bar a:hover {
 
 #sec6-photo {
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: auto;
   left: 47%;
   right: 0;
