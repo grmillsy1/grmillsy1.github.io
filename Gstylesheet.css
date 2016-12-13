@@ -59,6 +59,11 @@ nav.site-navigation-bar a:hover {
   width: 100%;
   position: relative;
 }
+
+img#photo1{
+  width: 45%;
+  height: auto;
+}
 #sec1-photo {
   position: absolute;
   width: 100%;
@@ -108,7 +113,12 @@ nav.site-navigation-bar a:hover {
 #sec3 {
   width: 100%;
   position: relative;
-  margin-top: 250px;
+  margin-top: 100px;
+}
+
+img#photo3 {
+  width: 45%;
+  height: auto;
 }
 
 #sec3-photo {
@@ -135,6 +145,7 @@ nav.site-navigation-bar a:hover {
   top: -77px;
 }
 
+
 #grace-sec {
   display: none;
 }
@@ -155,7 +166,7 @@ nav.site-navigation-bar a:hover {
 #sec4 {
   width: 100%;
   position: relative;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 #Flare {
@@ -166,6 +177,10 @@ nav.site-navigation-bar a:hover {
   top: -77px;
 }
 
+img#photo4 {
+  width: 80%;
+  height: auto;
+}
 
 #sec4-text {
   position: absolute;
@@ -187,7 +202,7 @@ nav.site-navigation-bar a:hover {
 #sec5 {
   width: 100%;
   position: relative;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 #JojaLondon {
@@ -198,6 +213,10 @@ nav.site-navigation-bar a:hover {
   top: -77px;
 }
 
+img#photo5 {
+  width: 43%;
+  height: auto;
+}
 #sec5-photo {
   position: absolute;
   width: 100%;
@@ -218,7 +237,7 @@ nav.site-navigation-bar a:hover {
 #sec6 {
   width: 100%;
   position: relative;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 #Bloom {
@@ -227,6 +246,11 @@ nav.site-navigation-bar a:hover {
   z-index: 63;
   font-size: 30pt !important;
   top: -77px;
+}
+
+img#photo6 {
+  width: 85%;
+  height: auto;
 }
 #sec6-text {
   position: absolute;
@@ -260,7 +284,7 @@ nav.site-navigation-bar a:hover {
 #Contact {
   width: 100%;
   position: relative;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 #bowtie {

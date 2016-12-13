@@ -39,7 +39,7 @@ if ($( window ).width() >= 1000) {
 
     var scene3 = new ScrollMagic.Scene({
       triggerElement: "#sec3",
-      duration: '200%',
+      duration: '100%',
       offset: -100 })
         .setClassToggle("#menu3", "active")
         // .addIndicators()
@@ -68,7 +68,7 @@ if ($( window ).width() >= 1000) {
            .addTo(controller);
 
     var scene5 = new ScrollMagic.Scene({
-      duration: '200%',
+      duration: '100%',
       triggerElement: "#sec5",
        offset: -100 })
         .setClassToggle("#menu5", "active")
