@@ -4,6 +4,8 @@
 if ($( window ).width() >= 1000) {
   $(function() {
     var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0.05,}});
+    var enabled = controller.enabled();
+    controller.enabled(true)
 
     // build scenes
      var scene1 = new ScrollMagic.Scene({
@@ -105,4 +107,13 @@ if ($( window ).width() >= 1000) {
         // .addIndicators()
         .addTo(controller);
   }
+
  )}
+
+ $(window).on("resize", function(e) {
+  if ($(window).width() < 1000 && controller.enabled()) {
+    controller.enabled(false);
+  } else if (!controller.enabled()) {
+    controller.enabled(true);
+  }
+});
