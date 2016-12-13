@@ -310,7 +310,7 @@ img#photo6 {
 }
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 1000px) and (min-width : 668px) {
   .wrapper1 {
     padding-left: 0;
     font-family: 'Cutive Mono', monospace;
@@ -399,5 +399,27 @@ img#photo6 {
 
  #joja-sec, #grace-sec {
    display: none;
+ }
+
+ #GracePrince, #Flare, #JojaLondon, #Bloom {
+   font-size: 40px !important;
+   margin-top: 80px;
+ }
+
+ #Contact {
+   margin-top: 80px;
+   font-family: 'Zeyada', cursive;
+   font-size: 30pt;
+ }
+
+ @media screen and (max-width : 668px) {
+   nav.site-navigation-bar {
+     font-size: 50pt !important;
+   }
+   .wrapper1 {
+     font-family: 'Cutive Mono', monospace;
+     text-align: center;
+     font-size: 10pt;
+   }
  }
 }

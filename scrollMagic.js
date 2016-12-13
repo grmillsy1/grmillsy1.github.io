@@ -114,7 +114,7 @@ if ($( window ).width() >= 1000) {
   if ($(window).width() < 1000 && controller.enabled()) {
     controller.enabled(false);
     location.reload();
-  } else if (!controller.enabled() || controller.enabled(false)) {
+  } else if (controller.enabled(false)) {
     controller.enabled(true);
     location.reload();
   }
