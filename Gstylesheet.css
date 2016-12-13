@@ -412,14 +412,13 @@ img#photo6 {
    font-size: 30pt;
  }
 
- @media screen and (max-width : 668px) {
-   nav.site-navigation-bar {
-     font-size: 50pt !important;
-   }
-   .wrapper1 {
-     font-family: 'Cutive Mono', monospace;
-     text-align: center;
-     font-size: 10pt;
-   }
- }
+}
+
+@media screen and (max-width : 668px) {
+  nav.site-navigation-bar {
+    font-size: 50pt !important;
+  }
+  .wrapper1 {
+    font-size: 10pt !important;
+  }
 }
