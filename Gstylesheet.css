@@ -310,7 +310,7 @@ img#photo6 {
 }
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 1000px) and (min-width : 668px ) {
   .wrapper1 {
     padding-left: 0;
     font-family: 'Cutive Mono', monospace;
@@ -340,7 +340,6 @@ img#photo6 {
     margin-top: 100px;
   }
   nav.site-navigation-bar {
-    /*display: none;*/
     height: 100vh;
     font-family: 'Zeyada', cursive;
     font-size: 30pt;
@@ -365,9 +364,6 @@ img#photo6 {
     color:#B9B9B9;
   }
 
-  /*#sec2, #sec3, #sec4, #sec5, #sec6 {
-    border-top: solid;
-  }*/
   #sec2-text {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -379,6 +375,11 @@ img#photo6 {
  #sec3-heading, #sec4-heading, #sec5-heading, #sec6-heading {
    font-size: 30pt;
  }
+
+ #sec2, #sec3, #sec4, #sec5, #sec6{
+   margin-top: 250px;
+ }
+
 
  #photo3, #photo4, #photo5, #photo6 {
    display: block;
@@ -403,11 +404,10 @@ img#photo6 {
 
  #GracePrince, #Flare, #JojaLondon, #Bloom {
    font-size: 40px !important;
-   margin-top: 80px;
  }
 
  #Contact {
-   margin-top: 80px;
+   margin-top: 250px;
    font-family: 'Zeyada', cursive;
    font-size: 30pt;
  }
@@ -415,10 +415,105 @@ img#photo6 {
 }
 
 @media screen and (max-width : 668px) {
-  nav.site-navigation-bar {
-    font-size: 50pt !important;
-  }
+
   .wrapper1 {
-    font-size: 10pt !important;
+    padding-left: 0;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    font-size: 10pt;
   }
+
+  .main-heading {
+    font-family: 'Zeyada', cursive;
+    font-size: 30pt;
+  }
+
+  img#photo1 {
+    width: 70%;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div#sec1-text {
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  nav.site-navigation-bar {
+    height: 100vh;
+    font-family: 'Zeyada', cursive;
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+  }
+  nav.site-navigation-bar li{
+    width: 100%;
+    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  nav.site-navigation-bar a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav.site-navigation-bar a:hover {
+    color:#B9B9B9;
+  }
+
+  #sec2-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+   #sec2-line {
+     display: none;
+   }
+   #sec3-heading, #sec4-heading, #sec5-heading, #sec6-heading {
+     font-size: 30pt;
+   }
+
+   #sec2, #sec3, #sec4, #sec5, #sec6 {
+     margin-top: 250px;
+   }
+
+
+   #photo3, #photo4, #photo5, #photo6 {
+     display: block;
+     width: 80%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+   }
+
+   #sec3-text, #sec4-text, #sec5-text, #sec6-text {
+     display: block;
+     width: 80%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   #joja-sec, #grace-sec {
+     display: none;
+   }
+
+   #GracePrince, #Flare, #JojaLondon, #Bloom {
+     font-size: 40px !important;
+   }
+
+   #Contact {
+     margin-top: 250px;
+     font-family: 'Zeyada', cursive;
+     font-size: 30pt;
+ }
 }
