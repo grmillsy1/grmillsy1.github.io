@@ -17,7 +17,7 @@ if ($( window ).width() >= 1000) {
         triggerElement: "#photo1",
         duration: 300})
            .setPin('#sec1-text')
-           .addIndicators()
+           //.addIndicators()
            .addTo(controller);
 
 
@@ -49,7 +49,7 @@ if ($( window ).width() >= 1000) {
         triggerElement: "#photo3",
         duration: 175})
            .setPin('#sec3-text')
-           .addIndicators()
+          //  .addIndicators()
            .addTo(controller);
 
     var scene4 = new ScrollMagic.Scene({
@@ -64,7 +64,7 @@ if ($( window ).width() >= 1000) {
         triggerElement: "#photo4",
         duration: 240})
            .setPin('#sec4-text')
-           .addIndicators()
+          //  .addIndicators()
            .addTo(controller);
 
     var scene5 = new ScrollMagic.Scene({
@@ -79,7 +79,7 @@ if ($( window ).width() >= 1000) {
         triggerElement: "#photo5",
         duration: 230})
            .setPin('#sec5-text')
-           .addIndicators()
+          //  .addIndicators()
            .addTo(controller);
 
     var scene6 = new ScrollMagic.Scene({
@@ -94,7 +94,7 @@ if ($( window ).width() >= 1000) {
         triggerElement: "#photo6",
         duration: 200})
            .setPin('#sec6-text')
-           .addIndicators()
+          //  .addIndicators()
            .addTo(controller);
 
     var scene7 = new ScrollMagic.Scene({

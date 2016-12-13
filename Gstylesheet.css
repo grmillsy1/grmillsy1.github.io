@@ -134,16 +134,20 @@ nav.site-navigation-bar a:hover {
   font-size: 30pt !important;
   top: -77px;
 }
+
+#grace-sec {
+  display: none;
+}
 #grace-web1 {
   margin-top: 100px;
   margin-right: 50px;
   margin-bottom: 50px;
   margin-left: 70px;
 }
-#bow-tie2 {
+#grace-web2 {
   margin-bottom: 50px;
 }
-#bow-tie2{
+#grace-web2{
   margin-right: 30px;
 }
 
@@ -205,6 +209,10 @@ nav.site-navigation-bar a:hover {
   width: 450px;
   left: 47%;
   right: 0;
+}
+
+#joja-sec {
+  display: none;
 }
 
 #sec6 {
