@@ -109,14 +109,14 @@ if ($( window ).width() >= 1000) {
         .addTo(controller);
   }
 
- )}
+    $(window).on("resize", function(e) {
+     if ($(window).width() < 1000 && controller.enabled()) {
+       console.log('resized');
+       controller.enabled(false);
+     } else if (!controller.enabled()) {
+       controller.enabled(true);
+     }
+     controller.update(true);
+   });
 
- $(window).on("resize", function(e) {
-  if ($(window).width() < 1000 && controller.enabled()) {
-    console.log('resized');
-    controller.enabled(false);
-  } else if (!controller.enabled()) {
-    controller.enabled(true);
-  }
-  controller.update(true);
-});
+ )}
