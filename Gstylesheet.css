@@ -365,9 +365,9 @@ img#photo6 {
     color:#B9B9B9;
   }
 
-  #sec2, #sec3, #sec4, #sec5, #sec6 {
+  /*#sec2, #sec3, #sec4, #sec5, #sec6 {
     border-top: solid;
-  }
+  }*/
   #sec2-text {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -395,5 +395,9 @@ img#photo6 {
    height: auto;
    margin-left: auto;
    margin-right: auto;
+ }
+
+ #joja-sec, #grace-sec {
+   display: none;
  }
 }
