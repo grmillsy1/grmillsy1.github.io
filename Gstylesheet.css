@@ -310,7 +310,7 @@ img#photo6 {
 }
 }
 
-@media screen and (max-width : 1000px) and (min-width : 668px) {
+@media screen and (max-width : 1000px) {
   .wrapper1 {
     padding-left: 0;
     font-family: 'Cutive Mono', monospace;
