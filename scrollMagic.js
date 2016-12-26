@@ -25,7 +25,7 @@ if ($( window ).width() >= 1000) {
 
 
     var scene2 = new ScrollMagic.Scene({
-      triggerElement: "#SideNote",
+      triggerElement: "#Skills",
       offset: -100,
       duration: '80%',})
         .setClassToggle("#menu2", "active")
@@ -33,7 +33,7 @@ if ($( window ).width() >= 1000) {
         .addTo(controller);
 
       var scene2b = new ScrollMagic.Scene({
-        triggerElement: "#SideNote",
+        triggerElement: "#Skills",
         offset: -150,
         // duration: 200,
         })
