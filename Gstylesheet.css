@@ -73,7 +73,7 @@ img#photo1{
 #sec1-text {
   width: 450px;
   position: absolute;
-  left: 48%;
+  left: 47%;
   right: 0;
 
 }
@@ -145,7 +145,6 @@ img#photo3 {
   top: -77px;
 }
 
-
 #grace-sec {
   display: none;
 }
@@ -161,7 +160,6 @@ img#photo3 {
 #grace-web2{
   margin-right: 30px;
 }
-
 
 #sec4 {
   width: 100%;
