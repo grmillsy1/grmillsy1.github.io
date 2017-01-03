@@ -178,7 +178,7 @@ img#photo3 {
 }
 
 img#photo4 {
-  width: 80%;
+  width: 85%;
   height: auto;
 }
 
@@ -188,7 +188,6 @@ img#photo4 {
   width: 450px;
   height: auto;
   text-align: right;
-  /*z-index: 42;*/
 }
 
 #sec4-photo {
@@ -196,7 +195,6 @@ img#photo4 {
   width: 50%;
   left: 47%;
   right: 0;
-  /*z-index: 41;*/
 }
 
 #sec5 {
